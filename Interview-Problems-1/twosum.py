@@ -9,6 +9,6 @@ def twosumSolution(arr,target):
         indexDict[value] = ind
     print(result)
 
-arr = [4, 6, 12, 14, 1, 9]
-target = 14
+arr = [2,7,11,15]
+target = 9
 twosumSolution(arr,target)
