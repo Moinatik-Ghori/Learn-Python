@@ -72,6 +72,6 @@ def number_to_words(num):
     return to_words(num)
 
 # Example usage:
-number = 50868
+number = 23
 result = number_to_words(number)
 print(result)
