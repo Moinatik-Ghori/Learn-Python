@@ -28,8 +28,13 @@ class Solution:
                 print(f"when mid is 2, {lst}")
                 high-=1
 
-list1 = [2,0,2,1,1,0]
 l1 = Solution()
-l1.selection_sort_method_1(list1)
+
 list1 = [2,0,2,1,1,0]
+l1.selection_sort_method_1(list1)
+
+list1 = [2,0,2,1,1,0]
+l1.selection_sort_method_2(list1)
+
+list1 = [8,4,10,7,2,5,9,1,3,6,2]
 l1.selection_sort_method_2(list1)
