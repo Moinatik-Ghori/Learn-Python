@@ -30,11 +30,11 @@ class Solution:
 
 l1 = Solution()
 
-list1 = [2,0,2,1,1,0]
+list1 = [9,8,7,6,5,4,3,2,1]
 l1.selection_sort_method_1(list1)
 
 list1 = [2,0,2,1,1,0]
 l1.selection_sort_method_2(list1)
 
-list1 = [8,4,10,7,2,5,9,1,3,6,2]
+list1 = [9,8,7,6,5,4,3,2,1]
 l1.selection_sort_method_2(list1)
