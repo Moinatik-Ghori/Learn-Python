@@ -26,10 +26,11 @@ Follow-up: Could you solve the problem in linear time and in O(1) space?
 '''
 class Solution:
     def solution_method_1(self,nums):
+        if len(nums) == 1:
+            return nums[0]
         nums.sort()
         print(nums)
         curr_element,unq = 0,0
-        max_cnt = 1
         count = 1
         result_dict = {}
         for i in range(1,len(nums)):
@@ -50,5 +51,6 @@ class Solution:
 
 
 nums = [1,1,2,2,1,1,1,2,2,3,2,2,3,3,3]
+nums = [1]
 obj = Solution()
 print(f"Method-1: {obj.solution_method_1(nums)}")
